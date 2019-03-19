@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassLibraryBilAfgift</name>
+    </assembly>
+    <members>
+        <member name="T:ClassLibraryBilAfgift.Afgift">
+            <summary>
+            class som indeholder afgift metoder
+            </summary>
+        </member>
+        <member name="M:ClassLibraryBilAfgift.Afgift.BilAfgift(System.Decimal)">
+            <summary>
+            metode til at udregne bilafgift på personbiler
+            </summary>
+            <param name="pris"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ClassLibraryBilAfgift.Afgift.ElbilAfgift(System.Decimal)">
+            <summary>
+            metode til at udregne bilafgift på elbiler med hjælp fra Bilafgift metoden
+            </summary>
+            <param name="pris"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
